@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <title>FORGE NUTRITION — Train Beyond Limits</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <p>WELCOME TO FORGE NUTRITION</p>
+    <span>✦</span>
+    <p>DISCOVER YOUR NEXT LEVEL</p>
+    <span>✦</span>
+    <p>CONTACT US ON WHATSAPP</p>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+
+    <a href="#home" class="logo">
+      <span class="logo-mark">F<span>✦</span></span>
+      <span class="logo-name">FORGE<small>NUTRITION</small></span>
+    </a>
+
+    <nav class="desktop-nav">
+      <a href="#home">Accueil</a>
+      <a href="#shop">Boutique</a>
+      <a href="#about">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+
+      <a class="instagram-icon" href="https://www.instagram.com/forge.nutrition.ma/" target="_blank" rel="noopener" aria-label="Instagram">
+        <i data-lucide="instagram"></i>
+      </a>
+
+      <button class="cart-open" aria-label="Ouvrir le panier">
+        <i data-lucide="shopping-bag"></i>
+        <span class="cart-count">0</span>
+      </button>
+
+      <button class="menu-toggle" aria-label="Menu">
+        <i data-lucide="menu"></i>
+      </button>
+
+    </div>
+
+  </header>
+
+  <!-- MOBILE NAV -->
+  <nav class="mobile-menu" id="mobile-menu">
+    <a href="#home">Accueil</a>
+    <a href="#shop">Boutique</a>
+    <a href="#about">À propos</a>
+    <a href="#contact">Contact</a>
+    <a href="https://www.instagram.com/forge.nutrition.ma/" target="_blank" rel="noopener">Instagram</a>
+  </nav>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1800&q=85"
+          alt="Salle de sport"
+        >
+      </div>
+
+      <div class="hero-shade"></div>
+
+      <div class="hero-content reveal">
+
+        <div class="hero-tag">
+          <span></span>
+          PERFORMANCE STARTS HERE
+        </div>
+
+        <h1>
+          TRAIN<br>
+          <span>BEYOND.</span>
+        </h1>
+
+        <p>
+          Discover our collection of sports nutrition
+          and training essentials.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#shop" class="button button-orange">
+            SHOP NOW <i data-lucide="arrow-up-right"></i>
+          </a>
+
+          <a href="#about" class="button button-light">
+            DISCOVER MORE
+          </a>
+        </div>
+
+        <div class="hero-caption">
+          <span>DISCIPLINE</span>
+          <span>✦</span>
+          <span>CONSISTENCY</span>
+          <span>✦</span>
+          <span>PERFORMANCE</span>
+        </div>
+
+      </div>
+
+      <div class="hero-index">01 / 03</div>
+
+    </section>
+
+    <!-- TICKER 1 -->
+    <section class="ticker ticker-orange">
+      <div class="ticker-track">
+        <div class="ticker-content">
+          <span>TRAIN HARDER</span><b>✦</b>
+          <span>STAY CONSISTENT</span><b>✦</b>
+          <span>FORGE YOUR FUTURE</span><b>✦</b>
+          <span>TRAIN HARDER</span><b>✦</b>
+          <span>STAY CONSISTENT</span><b>✦</b>
+          <span>FORGE YOUR FUTURE</span><b>✦</b>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFITS -->
+    <section class="benefits">
+
+      <div class="benefit reveal">
+        <div class="benefit-icon"><i data-lucide="truck"></i></div>
+        <div>
+          <h3>DELIVERY</h3>
+          <p>Delivery information on request</p>
+        </div>
+      </div>
+
+      <div class="benefit reveal">
+        <div class="benefit-icon"><i data-lucide="message-circle"></i></div>
+        <div>
+          <h3>DIRECT CONTACT</h3>
+          <p>Order enquiries through WhatsApp</p>
+        </div>
+      </div>
+
+      <div class="benefit reveal">
+        <div class="benefit-icon"><i data-lucide="shield-check"></i></div>
+        <div>
+          <h3>OUR CATALOG</h3>
+          <p>Explore available products</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- SHOP -->
+    <section class="shop section" id="shop">
+
+      <div class="section-heading reveal">
+
+        <div>
+          <span class="section-kicker">THE COLLECTION / 2026</span>
+          <h2>FIND YOUR<br><span>ESSENTIALS.</span></h2>
+        </div>
+
+        <p>
+          Explore the collection and discover
+          products selected for your training routine.
+        </p>
+
+      </div>
+
+      <div class="shop-controls reveal">
+
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">All products</button>
+          <button class="filter-btn" data-filter="protein">Nutrition</button>
+          <button class="filter-btn" data-filter="accessory">Accessories</button>
+          <button class="filter-btn" data-filter="wellness">Wellness</button>
+        </div>
+
+        <select id="sort-select" aria-label="Trier les produits">
+          <option value="default">Default sorting</option>
+          <option value="low">Price: Low to high</option>
+          <option value="high">Price: High to low</option>
+        </select>
+
+      </div>
+
+      <div class="product-grid" id="product-grid"></div>
+
+      <div class="catalog-note">
+        <span>✦</span>
+        Les références et prix affichés sont des exemples à remplacer par ton catalogue réel.
+      </div>
+
+    </section>
+
+    <!-- TICKER 2 -->
+    <section class="ticker ticker-dark">
+      <div class="ticker-track ticker-reverse">
+        <div class="ticker-content">
+          <span>BUILT BY DISCIPLINE</span><b>✦</b>
+          <span>MADE FOR MOVEMENT</span><b>✦</b>
+          <span>YOUR ROUTINE YOUR WAY</span><b>✦</b>
+          <span>BUILT BY DISCIPLINE</span><b>✦</b>
+          <span>MADE FOR MOVEMENT</span><b>✦</b>
+          <span>YOUR ROUTINE YOUR WAY</span><b>✦</b>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+
+      <div class="about-visual reveal">
+        <img
+          src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=1000&q=85"
+          alt="Entraînement sportif"
+          loading="lazy"
+        >
+
+        <div class="image-stamp">
+          <span>F</span>
+          <small>FORGE<br>NUTRITION</small>
+        </div>
+      </div>
+
+      <div class="about-content reveal">
+
+        <span class="section-kicker">WHO WE ARE</span>
+
+        <h2>MORE THAN<br><span>A ROUTINE.</span></h2>
+
+        <p>
+          FORGE NUTRITION is a sports-inspired
+          collection built around discipline,
+          consistency and performance.
+        </p>
+
+        <p>
+          Explore our catalog of products and
+          training accessories. Contact us directly
+          for information about availability.
+        </p>
+
+        <a href="#shop" class="button button-orange">
+          EXPLORE COLLECTION
+          <i data-lucide="arrow-up-right"></i>
+        </a>
+
+      </div>
+
+    </section>
+
+    <!-- FEATURE STRIP -->
+    <section class="feature-strip">
+
+      <div class="feature-strip-inner reveal">
+        <span>01</span>
+        <h3>YOUR GOALS.</h3>
+        <span class="feature-plus">+</span>
+      </div>
+
+      <div class="feature-strip-inner reveal">
+        <span>02</span>
+        <h3>YOUR ROUTINE.</h3>
+        <span class="feature-plus">+</span>
+      </div>
+
+      <div class="feature-strip-inner reveal">
+        <span>03</span>
+        <h3>YOUR JOURNEY.</h3>
+        <span class="feature-plus">+</span>
+      </div>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+
+      <div class="contact-box reveal">
+
+        <span class="section-kicker">LET'S CONNECT</span>
+
+        <h2>LET'S MAKE<br><span>IT HAPPEN.</span></h2>
+
+        <p>
+          Have a question about our collection?
+          Get in touch with us.
+        </p>
+
+        <div class="contact-actions">
+
+          <a href="https://wa.me/212600000000" class="button button-orange" target="_blank" rel="noopener">
+            <i data-lucide="message-circle"></i>
+            WHATSAPP
+          </a>
+
+          <a href="https://www.instagram.com/forge.nutrition.ma/" class="button button-outline" target="_blank" rel="noopener">
+            <i data-lucide="instagram"></i>
+            INSTAGRAM
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="footer-top">
+
+      <a href="#home" class="logo">
+        <span class="logo-mark">F<span>✦</span></span>
+        <span class="logo-name">FORGE<small>NUTRITION</small></span>
+      </a>
+
+      <p>BUILT BY DISCIPLINE. POWERED BY YOU.</p>
+
+      <a href="#home" class="back-top">
+        BACK TO TOP <i data-lucide="arrow-up"></i>
+      </a>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <span>© 2026 FORGE NUTRITION</span>
+
+      <div>
+        <a href="#shop">SHOP</a>
+        <a href="#about">ABOUT</a>
+        <a href="https://www.instagram.com/forge.nutrition.ma/" target="_blank" rel="noopener">INSTAGRAM</a>
+      </div>
+
+      <span>MADE FOR MOVEMENT ✦</span>
+
+    </div>
+
+  </footer>
+
+  <!-- CART BACKDROP -->
+  <div class="cart-backdrop" id="cart-backdrop"></div>
+
+  <!-- CART DRAWER -->
+  <aside class="cart-drawer" id="cart-drawer">
+
+    <div class="cart-header">
+      <div>
+        <span class="section-kicker">YOUR SELECTION</span>
+        <h3>YOUR CART <span id="cart-title-count">(0)</span></h3>
+      </div>
+
+      <button class="cart-close" aria-label="Fermer le panier">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+
+    <div class="cart-items" id="cart-items"></div>
+
+    <div class="cart-empty" id="cart-empty">
+      <i data-lucide="shopping-bag"></i>
+      <h4>Your cart is empty.</h4>
+      <p>Explore our collection to get started.</p>
+    </div>
+
+    <div class="cart-footer" id="cart-footer">
+
+      <div class="cart-total">
+        <span>SUBTOTAL</span>
+        <strong id="cart-subtotal">0 DH</strong>
+      </div>
+
+      <button class="button button-orange checkout-button">
+        ORDER ON WHATSAPP
+        <i data-lucide="arrow-up-right"></i>
+      </button>
+
+      <small>Availability and delivery fees will be confirmed by message.</small>
+
+    </div>
+
+  </aside>
+
+  <!-- TOAST -->
+  <div class="toast" id="toast">
+    <i data-lucide="check-circle-2"></i>
+    <span>Added to cart</span>
+  </div>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/212600000000" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i data-lucide="message-circle"></i>
+  </a>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
